@@ -1,0 +1,411 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.hooyo {
+
+    background-color: blueviolet;
+    height: 800px;
+    width: 100%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img{
+    height: 65px;
+    margin-left: 30px;
+
+
+}
+
+
+ul {
+
+    display: flex;
+}
+
+
+ul  li a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+
+ul li i{
+font-size: 14px;
+}
+
+ul li {
+
+    font-size: 20px;
+    list-style: none;
+     padding: 22px;
+}
+.midig {
+
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.midig h4{
+    color: white;
+    margin-top: 10px;
+}
+
+.midig button{
+color: white;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(110, 209, 110);
+    border: none;
+    border-radius: 10px;
+}
+
+.dhax {
+
+    margin-top: 50px;
+}
+
+.dhax h1 {
+
+    font-size: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    
+}
+
+
+
+span {
+     background-color: white;
+     color: blue;
+     margin-right: 12px;
+     
+}
+
+.parent {
+
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding-top: 20px;
+    position: absolute;
+    left: 22%;
+    gap: 190px;
+    margin-left: -100px;
+    bottom: 10%;
+
+}
+
+
+.child {
+
+    background-color: white;
+    height: 300px;
+    width: 450px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+
+}
+
+
+.child h1 {
+
+    color: black;
+    margin:12px;
+    font-size: 50px;
+}
+
+.child span{
+    color:rgb(54, 148, 54) ;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+.child p{
+
+    margin-top: 20px;
+}
+
+.child button{
+color: white;
+    margin-top: 10px;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(87, 164, 87);
+}
+
+
+
+
+
+.child1 {
+
+    background-color: white;
+    height: 300px;
+    width: 430px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    
+
+}
+
+
+.child1 h1 {
+
+    color: black;
+    margin:12px;
+    font-size: 50px;
+}
+
+.child1 span{
+    color:rgb(54, 148, 54) ;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+.child1 p{
+
+    margin-top: 20px;
+}
+
+.child1 button{
+color: white;
+    margin-top: 10px;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(87, 164, 87);
+}
+
+
+.sister {
+
+    background-color: rgb(195, 189, 189);
+    height: 1300px;
+    width: 100%;
+    position: relative;
+}
+
+.boy {
+
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.boy h1{
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.boy p{
+    margin-bottom:40px;
+
+}
+
+.box {
+
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    position: absolute;
+   margin-left: 100px;
+    gap: 20px;
+    left: 5%;
+}
+
+.box1{
+
+    background-color: white;
+    height: 270px;
+    width: 280;
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding: 10px  30px;
+    
+}
+
+.fa-display{  
+    color: blue;
+    font-size: 40px;
+    margin-left: 110px;
+    margin-top: 40px;
+
+
+}
+
+.box1  button{
+    color: white;
+    background-color: rgb(119, 243, 119);
+    border: none;
+    height: 40px;
+    margin-left: 65px;
+    margin-top: 20px;
+    width: 140px;
+    border-radius: 10px;
+   
+
+}
+
+
+.box1 h2{
+    margin-left: 40px;
+    
+}
+
+.box1 p{
+    margin-left: 20px;
+    text-align: justify;
+
+
+}
+
+h3{
+
+    font-size: 49px;
+    margin-top: 40%;
+    margin-left: -370px;
+
+}
+
+
+.bari p{
+
+    
+    margin-left: -90px;
+    justify-content: space-evenly;
+}
+
+
+.Hoo {
+    display: flex;
+    grid-template-columns: 300px 300px 300px;
+    margin-left:-550px;
+    justify-content: space-around;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+
+
+
+.annem h1{
+
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.maria-parrent{
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 500PX 500PX;
+    padding: 10PX 50PX;
+    margin-left: 50PX;
+    text-align: center;
+    
+
+    
+}
+
+
+.ubax {
+      height: 100px;
+      width: 480px;
+      text-align: justify;
+
+  
+}
+
+.ubax h5{
+
+    margin-left: 50px;
+   
+    
+
+}
+
+.ubax p{
+   
+    margin-left: 50px;
+
+}
+
+
+
+.footer {
+
+    background-color: blueviolet;
+text-align: center;
+    height:600px;
+    width: 100%;
+
+}
+
+.footer h1{
+padding-top: 4%;
+    color: white;
+    
+}
+.footer p{
+padding-top: 4px;
+    color: white;
+    
+}
+.footer button{
+margin-top: 2%;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(7, 182, 127);
+    
+}
+.Brother{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+
+.bro h2{
+    text-align: justify;
+    font-size: 20px;
+   
+color: rgb(255, 255, 255);
+
+}
+.bro h4{
+    font-size: 16px;
+    text-align: justify;
+color: rgb(202, 199, 199);
+
+}
+
+
